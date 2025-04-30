@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "25841231"))
   API_HASH = os.environ.get("API_HASH", "0a78fdfe60a7eae835d339f926f3d6a1")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "7327557772:AAEIu7g9qd-ug5PMTNlA4XrqdyNRZSkyYoE")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@isfilestorebot3_bot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "isfilestorebot3_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002590724286"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "linkcents.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "98e5a16ac2c06520df6f8798e71b5a46b505564c")
