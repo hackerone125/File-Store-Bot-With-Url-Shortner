@@ -371,7 +371,7 @@ async def button(bot: Client, cmd: CallbackQuery):
 
     elif "refreshForceSub" in cb_data:
         if Config.UPDATES_CHANNEL:
-            if Config.UPDATES_CHANNEL.startswith("-100"):
+            if Config.UPDATES_CHANNEL.startswith("-1002492775782"):
                 channel_chat_id = int(Config.UPDATES_CHANNEL)
             else:
                 channel_chat_id = Config.UPDATES_CHANNEL
